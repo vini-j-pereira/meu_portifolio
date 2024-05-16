@@ -5,8 +5,8 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-
+html{
+    scroll-behavior: smooth;
 }
 
 header{
@@ -14,6 +14,7 @@ header{
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
+
 }
 
 .navbar{
@@ -90,14 +91,15 @@ header{
 
 .text-2{
     position: absolute;
-    margin-top: 95px;
+    margin-top: 200px;
     font-weight: bold;
     
 }
 
 .text-3{
     position: absolute;
-    margin-top: 289px;
+    margin-top: 455px;
+    margin-left: -18px;
 }
 
 .container-sobre{
@@ -109,15 +111,56 @@ header{
     justify-content: space-around;
 }
 
-.title{
-    
-}
-
 .logo-sobre{
-    
     width: 400px;
     height: 300px;
-    border-radius: 5px;
-    background-color: #f7f7f7;
+    border-radius: 20px;
+    background-color: #ffde7160;
     box-shadow: 0px 10px 8px -3px #acacac;
+    background-image: url(img/kiwihug-3gifzboyZk0-unsplash.jpg);
+}
+
+.logo-sobre img{
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+
+.title-sobre{
+    width: 600px;
+    height: 300px;
+    margin-top: 25px;
+    color: #acacac;
+    text-align: justify;
+}
+
+.title-txt{
+    margin-bottom: 15px;
+}
+
+
+.title-txt{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    color: #474747;
+    line-height: .8px;
+}
+
+.container-safa{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.title-safra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: -100px;
+    color: #474747;
 }
