@@ -215,3 +215,19 @@ header{
     height: 500px;
     border-radius: 5px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #c9c9c9;
+}
+
+footer p{
+    color: #474747;
+}
+
+footer span{
+    color: #fff;
+}
