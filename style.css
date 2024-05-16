@@ -139,13 +139,25 @@ header{
 }
 
 
-.title-txt{
+.container-sobre .title-txt{
     font-size: 25px;
     font-weight: 500;
     font-style: italic;
-    color: #474747;
     line-height: .8px;
 }
+
+.container-sobre .title-txt a{
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    color: #474747;
+}
+
+.container-sobre .title-txt a:hover{
+    color: #000000;
+    transform: scale(1.05);
+}
+
 
 .container-safa{
     display: flex;
