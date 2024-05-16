@@ -118,6 +118,7 @@ header{
     background-color: #ffde7160;
     box-shadow: 0px 10px 8px 3px #acacac71;
     background-image: url(img/kiwihug-3gifzboyZk0-unsplash.jpg);
+    opacity: .8;
 }
 
 .logo-sobre img{
@@ -173,6 +174,44 @@ header{
     font-size: 25px;
     font-weight: 500;
     font-style: italic;
-    margin-left: -100px;
     color: #474747;
+    margin-bottom: 30px;
+}
+
+.container-safra{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+.img-safa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 22.5%;
+    background-color: #e0e0e05d;
+    padding: 40px 40px;
+    padding-bottom: 15px;
+    margin-bottom: 100px;
+    box-shadow: 0px 10px 10px 5px #c9c9c9;
+    border-radius: 5px;
+    z-index: 99999;
+}
+
+.img-safa a{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #474747;
+    transition: .3s;
+}
+
+.img-safa a:hover{
+    color: #000000;
+    transform: scale(1.05);
+}
+
+.img-safa img{
+    height: 500px;
+    border-radius: 5px;
 }
