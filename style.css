@@ -116,7 +116,7 @@ header{
     height: 300px;
     border-radius: 20px;
     background-color: #ffde7160;
-    box-shadow: 0px 10px 8px -3px #acacac;
+    box-shadow: 0px 10px 8px 3px #acacac71;
     background-image: url(img/kiwihug-3gifzboyZk0-unsplash.jpg);
 }
 
