@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.navbar{
+    padding: 10px;
+    z-index: 999999 !important;
+}
+
+.txt-navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #acacac;
+    transition: .5s;
+}
+
+.txt-navbar a:hover{
+    color: #33794B;
+    transform: scale(1.05);
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #acacac;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #33794B;
+    transform: scale(1.05);
+}
+
+.container{
+    background-image: url(img/tim-foster-A-rAZGIE2pA-unsplash\ \(1\).jpg);
+    opacity: .8;
+    width: 97%;
+    height: 100vh;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px 5px #acacac;
+}
+
+.txt-main{
+    position: relative;
+}
+
+.container p{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 200px;
+}
+
+.text-1{
+    position: absolute;
+    margin-top: -85px;
+    left: -18px; 
+}
+
+.text-2{
+    position: absolute;
+    margin-top: 95px;
+    font-weight: bold;
+    
+}
+
+.text-3{
+    position: absolute;
+    margin-top: 289px;
+}
+
+.container-sobre{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title{
+    
+}
+
+.logo-sobre{
+    
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 10px 8px -3px #acacac;
+}
