@@ -281,7 +281,7 @@ footer span{
 
     .container{
         width: 90%;
-        height: 99vh;
+        height: 98vh;
     }
 
     .navbar ul{
@@ -349,7 +349,7 @@ footer span{
 
     .navbar ul{
         position: absolute;
-        top: 6.5vh;
+        top: 6vh;
         right: 0;
         width: 40vw;
         height: 100vh;
