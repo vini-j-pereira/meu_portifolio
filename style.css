@@ -203,7 +203,7 @@ header{
     margin-bottom: 100px;
 }
 
-.img-safa{
+.img-safra{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -216,7 +216,7 @@ header{
     border-radius: 5px;
 }
 
-.img-safa a{
+.img-safra a{
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
@@ -224,12 +224,12 @@ header{
     transition: .3s;
 }
 
-.img-safa a:hover{
+.img-safra a:hover{
     color: #000000;
     transform: scale(1.05);
 }
 
-.img-safa img{
+.img-safra img{
     height: 500px;
     border-radius: 5px;
 }
@@ -266,7 +266,7 @@ footer span{
         margin-left: -18px;
     }
 
-    .img-safa{
+    .img-safra{
         height: 500px;
         display: flex;
         justify-content: center;
@@ -374,6 +374,8 @@ footer span{
     }
 
     .container-sobre{
+        margin-top: 100px;
+        margin-bottom: 0;
         margin: -50px 0;
         display: flex;
         align-items: center;
@@ -384,6 +386,7 @@ footer span{
         background-position: center;
         height: 70vh;
         margin-bottom: -10px;
+        margin-bottom: 120px;
     }
 
     .mobile-menu{
@@ -411,11 +414,31 @@ footer span{
     }
 
     .container-safra{
-        width: 100%;
-        height: 20vh;
-        margin: 0;
-        padding: 0;
-        
+        margin-top: 100px;
+    }
 
+    .img-safra{
+        height: 200px;
+        margin: 0 20px;
+        padding-top: 140px;
+        padding-bottom: 120px;
+        margin-bottom: 10px;
+    }
+
+    .img-safra img{
+       height: 150px;
+       
+    }
+
+    footer{
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    footer sapn{
+        text-align: center;
     }
 }
