@@ -18,8 +18,23 @@ header{
 }
 
 .navbar{
+    display: flex;
     padding: 10px;
     z-index: 999999 !important;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer; 
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #acacac;
+    margin: 4px;
+    padding: 1.6px;
+    border-radius: 3px;
 }
 
 .txt-navbar a{
@@ -195,7 +210,6 @@ header{
     margin-bottom: 100px;
     box-shadow: 0px 10px 10px 5px #c9c9c9;
     border-radius: 5px;
-    z-index: 99999;
 }
 
 .img-safa a{
@@ -226,8 +240,125 @@ footer{
 
 footer p{
     color: #474747;
+    
 }
 
 footer span{
     color: #fff;
+
+}
+
+@media (max-width: 1280px){
+
+    .text-2{
+        position: absolute;
+        margin-top: 110px;
+        font-weight: bold;
+       
+    }
+    .txt-main .text-3{
+        position: absolute;
+        margin-top: 310px;
+        margin-left: -18px;
+    }
+
+    .img-safa{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 22.5%;
+        background-color: #e0e0e05d;
+        padding: 40px 40px;
+        padding-bottom: 15px;
+        margin-bottom: 100px;
+        box-shadow: 0px 10px 10px 5px #c9c9c9;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 999px){
+
+    .container{
+        width: 90%;
+        height: 99vh;
+    }
+
+    .navbar ul{
+        position: absolute;
+        top: 5.7vh;
+        right: 0;
+        width: 40vw;
+        height: 100vh;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 20px 0;
+        transform: translateX(100%);
+        transition: .3s ease-in;
+    }
+
+    .navbar ul li{
+        margin-left: 0;
+    }
+
+    .mobile-menu{
+        display: block;
+        justify-content: space-around;
+        margin-left: 50vh;
+        
+    }
+
+    .txt-navbar{
+        padding-left: 0;
+
+    }
+
+    .navbar{
+        display: block;
+        padding: 10px;
+        margin: 0;
+        left: 0;
+    }
+
+    .navbar ul.active{
+        transform: translateX(0);
+    }
+
+      @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+           opacity: 1; 
+            transform: translateX(0);
+        }
+    }
+}
+
+  
+
+
+
+@media (max-width: 425px){
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navbar{
+        padding: 8px;
+        z-index: 999999 !important;
+    }
+
+    .navbar ul{
+        display: flex;
+        align-items: center;
+    }
 }
