@@ -351,6 +351,10 @@ footer span{
 
 @media (max-width: 320px){
 
+    body{
+        overflow: hidden;
+    }
+
     .navbar ul{
         position: absolute;
         top: 5vh;
