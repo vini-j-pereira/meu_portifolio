@@ -349,9 +349,9 @@ footer span{
 
     .navbar ul{
         position: absolute;
-        top: 5.5vh;
+        top: 5vh;
         right: 0;
-        width: 40vw;
+        width: 55vw;
         height: 100vh;
     }
 }
